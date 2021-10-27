@@ -1,0 +1,48 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Fone de ouvido Gamer - Stereo",
+      "price": 89.56,
+      "secction": "gamer"
+    },
+    {
+      "id": 2,
+      "name": "Mouse Gamer - MultiLaser",
+      "price": 67.95,
+      "secction": "gamer"
+    },
+    {
+      "id": 3,
+      "name": "Cadeira Gamer",
+      "price": 2528.12,
+      "secction": "gamer"
+    },
+    {
+      "id": 4,
+      "name": "Pasta de Ficheiro Multiuso",
+      "price": "50.00",
+      "secction": "Papelaria"
+    },
+    {
+      "name": "Samsung Smart Tv 4K 60''",
+      "price": "5999.98",
+      "id": 6
+    },
+    {
+      "name": "Monitor LCD 40''",
+      "price": "1999.99",
+      "id": 7
+    },
+    {
+      "name": "Lápis 6B FaberCastell",
+      "price": "3.50",
+      "id": 10
+    },
+    {
+      "name": "Placa Mãe Asus 600RXTM",
+      "price": "2300.65",
+      "id": 11
+    }
+  ]
+}
