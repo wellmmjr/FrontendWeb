@@ -1,0 +1,96 @@
+.div-prev-img-divs{
+  flex-direction: row;
+  flex-wrap: wrap;
+  display: flex;
+  margin: 0.75rem;
+  justify-content: center;
+}
+
+.div-prev-img-divs .prev-img{
+  max-width: 100%;
+  height: 8rem;
+  display: contents;
+  /* flex-direction: column; */
+  margin: 0.75rem;
+  align-content: center;
+  justify-content: center;
+}
+
+.prev-img .cardImgLabel{
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 10rem;
+}
+
+.cardImgLabel img{
+  max-width: 10rem;
+}
+
+.cardImgLabel p{
+  word-break: break-all;
+}
+
+.prev-img i{
+  cursor: pointer;
+  max-height: 2rem;
+  color: #BA151B;
+  align-self: flex-start;
+  justify-self: start;
+  left: -0.75rem;
+  top: -0.75rem;
+  position: relative;
+}
+
+.div-prev-img-divs .add-img{
+  align-content: center;
+  justify-content: center;
+  border-style: dotted;
+  display: flex;
+  height: auto;
+  width: 10rem;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.add-img i{
+  font-size: 5rem;
+}
+
+.btn-file {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-file input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  outline: none;
+  background: white;
+  cursor: inherit;
+  display: block;
+}
+
+.file-field.medium .file-path-wrapper {
+  height: 3rem;
+}
+
+.file-field.medium .file-path-wrapper .file-path {
+  height: 2.8rem;
+}
+
+.file-field.big-2 .file-path-wrapper {
+  height: 3.7rem;
+}
+
+.file-field.big-2 .file-path-wrapper .file-path {
+  height: 3.5rem;
+}

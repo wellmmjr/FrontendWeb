@@ -1,0 +1,28 @@
+<mat-toolbar-row class="mat-toolbar nav ">
+  <div class="loading" *ngIf="!menuLoaded">
+    <mat-spinner strokeWidth="4" [diameter]="40" ></mat-spinner>
+  </div>
+  <mat-button-toggle-group *ngIf="menuLoaded" class="scrolling" name="menuItens">
+    <div *ngFor="let item of menuItens">
+      <span>
+        <mat-button-toggle value="{{ item.name }}">
+          
+          <a class="d-flex" routerLink="{{item.path}}">
+            <i class="material-icons">
+              {{ item.icon}}
+            </i>
+
+            {{ item.label }}
+
+          </a>
+        </mat-button-toggle>
+      </span>
+    </div>
+  </mat-button-toggle-group>
+</mat-toolbar-row>
+
+<div class="pageNavigator">
+  <span>
+    <router-outlet></router-outlet>
+  </span>
+</div>
