@@ -1,0 +1,40 @@
+form {
+    background-color: #2E2C2C;
+    display: flex;
+    flex-direction: column;
+}
+
+form span {
+    margin: 2rem;
+    font-size: large;
+    font-weight: 500;
+}
+
+form mat-form-field {
+    margin: 2rem;
+}
+
+form textarea {
+    overflow: hidden;
+}
+
+form app-pick-pic-to64-button{
+    margin: 2rem
+}
+
+form div{
+    flex-direction: row;
+    align-self: center;
+    margin-bottom: 1rem;
+}
+
+.cancelar{
+    background-color: #2E2C2C;
+    border-color: #BA151B;
+    border-style: inset
+}
+
+.enviar {
+    background-color: #BA151B;
+    margin: 1rem;
+}
